@@ -1,0 +1,150 @@
+{
+  "main": {
+    "name":"DECATHON",
+    "description":"ACES Coders, organized by ACES, the Department of Computer Engineering, University of Peradeniya is the largest algorithmic programming competition in the country. It is a 12-hour coding competition open to all undergraduates island-wide.",
+    "image":"profilepic.jpg",
+    "logo":"datathon_final_logo.png",
+    "bio":"ACES Coders, organized by ACES, Department of Computer Engineering, University of Peradeniya is a 12 hours continuous algorithmic programming competition. This limited-time, rapid coding competition, is one of the best platforms for the undergraduates of the country to improve their efficiency and accuracy in problem-solving, to get exposed to industry experts as well as to engage with the like-minded youth potential of the island.ACES Coders started ten years ago as a practice event to train Computer Engineering students at the University of Peradeniya to take part in similar online competitive programming competitions such as IEEEXtreme and ACM ICPC (International Collegiate Programming Contest).Over the past years, it has widened its goals and has become one of the most popular coding competitions among the undergraduates in Sri Lanka. Today, around 300 undergraduates from more than 20 universities and higher educational institutes of the country compete in the 12 hours overnight coding competition.This year too, ACES proudly presents ACES Coders v8.0 for all the programming passionate undergraduates all over the country. With the gained popularity over the past years, we witness an increased enthusiasm for ACES Coders v8.0 this year. Registrations are now open, so hurry up and secure your spot at the largest coding competition on the island before it’s too late!!",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "youremailhere@gmail.com",
+    "phone": "555-555-5555",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://forms.google.com",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"mailto:aces@eng.pdn.ac.lk",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"1st Place",
+        "degree":"Masters in Beer tasting",
+        "graduated":"April 2007",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"2nd Place",
+        "degree":"Masters in Beer tasting",
+        "graduated":"April 2007",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"3rd Place",
+        "degree":"Masters in Beer tasting",
+        "graduated":"April 2007",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2010 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2007 - February 2010",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Swift",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"SYSCO",
+        "category":"Platinum partner",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://syscolabs.lk/"
+      },
+      {
+        "title":"WSO3",
+        "category":"Gold Partner",
+        "image":"fury-fighting-gear.jpg",
+        "url":"https://syscolabs.lk/"
+      },
+      {
+        "title":"ZONE 24x7",
+        "category":"Silver Sponser",
+        "image":"original-thai-food.jpg",
+        "url":"https://syscolabs.lk/"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"https://syscolabs.lk/"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"https://syscolabs.lk/"
+      }
+    ]
+  }
+}
