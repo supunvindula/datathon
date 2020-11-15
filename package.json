@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "homepage": "https://github.com/supunvindula/datathon",
   "private": true,
+  "engines": {
+    "npm": "5.7.1",
+    "node": "9.5.0"
+  },
   "dependencies": {
     "anix": "^0.3.3",
     "jquery": "^3.2.1",
@@ -15,10 +19,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "start-js": "sleep 2 && react-scripts start",
-    "start": "npm-run-all -p watch-css start-js react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
