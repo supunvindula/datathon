@@ -8,7 +8,6 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
-import Countdown from './Components/Countdown';
 
 class App extends Component {
 
@@ -44,12 +43,9 @@ class App extends Component {
   }
 
   render() {
-    const currentDate = new Date();
-    const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? currentDate.getFullYear() + 1 : currentDate.getFullYear();
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <Countdown date={`${year}-12-24T00:00:00`}/>
+        <Header data={this.state.resumeData.main}/>        
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>

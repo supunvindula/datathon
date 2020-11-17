@@ -1,8 +1,11 @@
 import React, { PropTypes, Component } from 'react';
 import ParticlesBg  from "particles-bg";
+import Countdown from './Countdown';
 
 class Header extends Component {
   render() {
+   const currentDate = new Date();
+   const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? currentDate.getFullYear() + 1 : currentDate.getFullYear();
 
     if(this.props.data){
        var project = this.props.data.project;
@@ -42,6 +45,9 @@ class Header extends Component {
             <h3>{description}.</h3>
             <br/>
             <hr />
+            <ul className="social">
+               <Countdown date={`${year}-12-24T00:00:00`}/>
+            </ul>
             <ul className="social">
                <a href={project} target="_blank" className="button btn project-btn"><i className="fa fa-book"></i>Register Now!</a>
                {/* <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a> */}
