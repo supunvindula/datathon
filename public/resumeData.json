@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"DECATHON",
-    "description":"ACES Coders, organized by ACES, the Department of Computer Engineering, University of Peradeniya is the largest algorithmic programming competition in the country. It is a 12-hour coding competition open to all undergraduates island-wide.",
+    "description":"ACES Datathon, Organized by ACES, the Department of Computer Engineering, University of Peradeniya.It is a weekend long Data Hackathon bringing together Data Enthusiastics to create Data driven solutions.The competition will be held from 16th Jan 2021 to 17th January 2021.",
     "image":"profilepic.jpg",
     "logo":"datathon_final_logo.png",
-    "bio":"ACES Coders, organized by ACES, Department of Computer Engineering, University of Peradeniya is a 12 hours continuous algorithmic programming competition. This limited-time, rapid coding competition, is one of the best platforms for the undergraduates of the country to improve their efficiency and accuracy in problem-solving, to get exposed to industry experts as well as to engage with the like-minded youth potential of the island.ACES Coders started ten years ago as a practice event to train Computer Engineering students at the University of Peradeniya to take part in similar online competitive programming competitions such as IEEEXtreme and ACM ICPC (International Collegiate Programming Contest).Over the past years, it has widened its goals and has become one of the most popular coding competitions among the undergraduates in Sri Lanka. Today, around 300 undergraduates from more than 20 universities and higher educational institutes of the country compete in the 12 hours overnight coding competition.This year too, ACES proudly presents ACES Coders v8.0 for all the programming passionate undergraduates all over the country. With the gained popularity over the past years, we witness an increased enthusiasm for ACES Coders v8.0 this year. Registrations are now open, so hurry up and secure your spot at the largest coding competition on the island before it’s too late!!",
+    "bio":"ACES Datathon, Organized by ACES, the Department of Computer Engineering, University of Peradeniya.It is a weekend long Data Hackathon bringing together Data Enthusiastics to create Data driven solutions.The competition will be held from 16th Jan 2021 to 17th January 2021.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
@@ -70,16 +70,22 @@
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"PHASE I",
+        "title":"12hrs competition",
+        "years":"On 16th January",
+        "description":"From 10am-10pm"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"PHASE II",
+        "title":"Second challenge",
+        "years":"Before 6 am 17th January",
+        "description":"Report Submission"
+      },
+      {
+        "company":"PHASE III",
+        "title":"Final competition",
+        "years":"On 17th January at 6 pm",
+        "description":"Online Viva Session"
       }
     ],
     "skills":[

@@ -1,56 +1,49 @@
 import React, { Component } from 'react';
 
 class About extends Component {
-  render() {
+   render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
-    }
+      if (this.props.data) {
+         var name = this.props.data.name;
+         var profilepic = "images/" + this.props.data.image;
+         var bio = this.props.data.bio;
+         var street = this.props.data.address.street;
+         var city = this.props.data.address.city;
+         var state = this.props.data.address.state;
+         var zip = this.props.data.address.zip;
+         var phone = this.props.data.phone;
+         var email = this.props.data.email;
+         var resumeDownload = this.props.data.resumedownload;
+      }
 
-    return (
-      <section id="about">
-      <div className="row">
-         <div className="three columns">
-            {/* <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" /> */}
-         </div>
-         <div className="nine columns main-col">
-            <h2>Rules</h2>
-
-            <p>{bio}</p>
+      return (
+         <section id="about">
             <div className="row">
-               <div className="columns contact-details">
-                  <h2>Note about Registration:</h2>
-                  <p className="address">
-						   {/* <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span> */}
-                     A specific quota is allocated for each department. The registrations forms have been sent to the respective department heads. Each team have to register through their department heads.
-					   </p>
+               <div className="three columns">
+                  {/* <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" /> */}
                </div>
-               <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-envelope-o"></i>Contact US!</a>
-                  </p>
+               <div className="nine columns main-col">
+                  <h2>COMPETITION IS FOR??</h2>
+                     <p>Datathon is open to all undergraduates of any recognized higher educational institute or University of Sri Lanka.</p>
+                  <h2>Note about Registration:</h2>
+                     <p>Hurry up! Brace yourselves and gather your best teammates to secure your posts.</p>
+                     <p>Accepting Registrations Now !</p>
+                  <div className="row">
+                     <div className="columns contact-details">
+                        <h2>Faculty of Engineering, UOP Undergraduates</h2>
+                        <p>All the undergraduates of Faculty of Engineering,University of Peradeniya should participate Pre-Datathon to get qualified into ACES Datathon. Registrations for the Pre-Datathon will be notified through the Department.</p>
+                     </div>
+                     <div className="columns contact-details">
+                        <h2>Other Undergraduates</h2><br></br>
+                        <p>We have already sent the registration forms to the respective Departments. Please contact your Head of the Department and send us your  registration form through them.</p>
+                     </div>
+                  </div>
                </div>
             </div>
-         </div>
-      </div>
 
-   </section>
-    );
-  }
+         </section>
+      );
+   }
 }
 
 export default About;
