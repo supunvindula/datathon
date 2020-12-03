@@ -84,7 +84,7 @@ class Countdown extends Component {
     const countDown = this.state;
 
     return (
-      <div id ="countdown" className="Countdown">
+      <div id ="countdown" className="row Countdown">
         <br/>
         <span className="Countdown-col">
           <span className="Countdown-col-element">

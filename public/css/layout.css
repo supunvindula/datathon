@@ -1050,4 +1050,9 @@ footer .social-links li:first-child { margin-left: 0; }
   color: #edb752;
 }
 
-
+@media screen and (max-width: 750px) {
+   .Countdown-col-element strong{
+      margin: 10px 0;
+      font-size: 25px;
+    }
+ }
