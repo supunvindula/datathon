@@ -19,22 +19,22 @@ class About extends Component {
       return (
          <section id="about">
             <div className="row">
-               <div className="three columns">
-                  {/* <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" /> */}
-               </div>
-               <div className="nine columns main-col">
-                  <h2>COMPETITION IS FOR??</h2>
+               {/* <div className="three columns">
+                  <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" />
+               </div> */}
+               <div className="columns">
+                  <h2 className="about_title">COMPETITION IS FOR??</h2>
                      <p>Datathon is open to all undergraduates of any recognized higher educational institute or University of Sri Lanka.</p>
-                  <h2>Note about Registration:</h2>
+                  <h2 className="about_title">Note about Registration:</h2>
                      <p>Hurry up! Brace yourselves and gather your best teammates to secure your posts.</p>
                      <p>Accepting Registrations Now !</p>
                   <div className="row">
                      <div className="columns contact-details">
-                        <h2>Faculty of Engineering, UOP Undergraduates</h2>
+                        <h2 className="about_title">Faculty of Engineering, UOP Undergraduates</h2>
                         <p>All the undergraduates of Faculty of Engineering,University of Peradeniya should participate Pre-Datathon to get qualified into ACES Datathon. Registrations for the Pre-Datathon will be notified through the Department.</p>
                      </div>
                      <div className="columns contact-details">
-                        <h2>Other Undergraduates</h2><br></br>
+                        <h2 className="about_title">Other Undergraduates</h2><br></br>
                         <p>We have already sent the registration forms to the respective Departments. Please contact your Head of the Department and send us your  registration form through them.</p>
                      </div>
                   </div>

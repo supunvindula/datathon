@@ -116,7 +116,6 @@ class Countdown extends Component {
         </span>
         <br/>
         <br/>
-        <h1 className="responsive-headline" style={{"margin": "auto", "width": "60%","text-align":"center","color":"white"}}>MORE</h1>
         <br/>
       </div>
     );

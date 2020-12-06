@@ -9,8 +9,8 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
-   e. Portfolio Section
+   d. prices Section
+   e. sponsers Section
    f. Call To Action Section
    g. Testimonials Section
    h. Contact Section
@@ -229,51 +229,51 @@ ul#nav li.current a { color: #fe6928; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. prices Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#prices {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #0762f9; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#prices a, #prices a:visited  { color: #0762f9; }
+#prices a:hover, #prices a:focus { color: #313131; }
 
-#resume h1 {
+#prices h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#prices h1 span {
    border-bottom: 3px solid #0762f9;
    padding-bottom: 6px;
 }
-#resume h3 {
+#prices h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#prices .header-col { padding-top: 9px; }
+#prices .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#prices .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#prices .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#prices .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -410,15 +410,15 @@ ul#nav li.current a { color: #fe6928; }
 }  */
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* e. sponsers Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#sponsers {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
 }
-#portfolio h1 {
+#sponsers h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -427,9 +427,9 @@ ul#nav li.current a { color: #fe6928; }
    color: #95A3A3;
 }
 
-/* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
-.portfolio-item .item-wrap {
+/* sponsers Content */
+#sponsers-wrapper .columns { margin-bottom: 36px; }
+.sponsers-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
@@ -440,13 +440,13 @@ ul#nav li.current a { color: #fe6928; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a {
+.sponsers-item .item-wrap a {
    display: block;
    cursor: pointer;
 }
 
 /* overlay */
-.portfolio-item .item-wrap .overlay {
+.sponsers-item .item-wrap .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -464,7 +464,7 @@ ul#nav li.current a { color: #fe6928; }
 
    background: url(../images/overlay-bg.png) repeat;
 }
-.portfolio-item .item-wrap .link-icon {
+.sponsers-item .item-wrap .link-icon {
    display: block;
    color: #fff;
    height: 30px;
@@ -488,27 +488,27 @@ ul#nav li.current a { color: #fe6928; }
    margin-left: -15px;
    margin-top: -15px;
 }
-.portfolio-item .item-wrap img {
+.sponsers-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
-.portfolio-item .portfolio-item-meta h5 {
+.sponsers-item .sponsers-item-meta { padding: 18px }
+.sponsers-item .sponsers-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
-.portfolio-item .portfolio-item-meta p {
+.sponsers-item .sponsers-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
 
 /* on hover */
-.portfolio-item:hover .overlay {
+.sponsers-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
-.portfolio-item:hover .link-icon {
+.sponsers-item:hover .link-icon {
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
@@ -1009,7 +1009,8 @@ footer .social-links li:first-child { margin-left: 0; }
 
 
 .social .btn:first-child{
-   margin-right: 30px;
+   margin-right: 0px;
+   /* margin-right: 30px; */
 }
 .social .btn{
    padding-left: 30px;
@@ -1056,3 +1057,201 @@ footer .social-links li:first-child { margin-left: 0; }
       font-size: 25px;
     }
  }
+ .about_title {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+
+/* pricing cards */
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Lato:300,400,700,900&display=swap');
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+} */
+.body-winner {
+  font-size:62.5%;
+
+}
+.random-bg{
+  height:100vh;
+  background-color:#111d5e;
+  padding-top:1px;
+  background-image:url('https://images.unsplash.com/photo-1528580279421-f0b84f9d7640?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80');
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.random-bg::before{
+  content:'';
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background:rgba(17, 29, 94, 0.85);
+  z-index:0;
+}
+.winner-wrap{
+  max-width:200px;
+  min-height:280px;
+  background:#b21f66;
+  margin:5% auto 0;
+  position:relative;
+  padding:1rem 2rem 6.5rem 2rem;
+  font-family: 'Lato', sans-serif;
+  text-align:center;
+  cursor:pointer;
+}
+
+
+.winner-wrap:hover .right-ribbon{
+  right:-45px;
+  border-left:20px solid #E0B05C;
+  transition:all ease .3s;
+}
+.winner-wrap:hover .left-ribbon{
+  left:-45px;
+  border-right:20px solid #E0B05C;
+  transition:all ease .3s;
+}
+.winner-wrap:hover .winner-ribbon{
+  box-shadow:0 3px 6px 0px rgba(0,0,0,0.2);
+  transition:all ease .3s;
+}
+.border{
+  position:absolute;
+  width:90%;
+  height:90%;
+  border:1px solid rgba(255, 189, 105, 0.4);
+  left:0; right:0;
+  top:0; bottom:0;
+  margin:auto;
+}
+.medal-box{
+  width:60px;
+  height:60px;
+  background:#fe346e;
+  color:#ffbd69;
+  border-radius:50px;
+  line-height:70px;
+  font-size:2.3rem;
+  margin:.8rem auto 1rem;
+}
+.winner-wrap h1{
+  color:rgba(255, 189, 105, 0.95);
+  font-size:1.4rem;
+  font-weight:300;
+  text-transform:uppercase;
+  margin-bottom:1rem;
+}
+.winner-wrap h2{
+  color:#fff;
+  font-size:1.2rem;
+  font-weight:400;
+  text-transform:uppercase;
+  margin-bottom:.85rem;
+}
+.winner-ribbon{
+  width:100%;
+  height:50px;
+  background:#ffbd69;
+  text-align:center;
+  font-family: 'Bebas Neue', cursive;
+  font-size:2.8rem;
+  color:#fe346e;
+  position:absolute;
+  bottom:45px;
+  left:0;
+  z-index:99;
+  box-shadow:0 10px 15px -7px rgba(0,0,0,0.2)
+}
+.right-ribbon{
+  width:0;
+  height:0;
+  position:absolute;
+  right:-35px;
+  bottom:30px;
+  border-top:24px solid #E0B05C;
+  border-bottom:24px solid #E0B05C;
+  border-left:10px solid #E0B05C;
+  border-right:25px solid transparent;
+  transition:all ease .3s;
+}
+.left-ribbon{
+  width:0;
+  height:0;
+  position:absolute;
+  left:-35px;
+  bottom:30px;
+  border-top:24px solid #E0B05C;
+  border-bottom:24px solid #E0B05C;
+  border-left:25px solid transparent;
+  border-right:10px solid #E0B05C;
+  transition:all ease .3s;
+}
+.team-wrap{
+  width:100%;
+  margin:2rem auto;
+  text-align:center;
+  position:relative;
+}
+.team-wrap.inactive .member-pic{
+  animation: fadein .3s ease-in forwards; 
+}
+.team-wrap.active .member-pic:nth-child(1){
+  animation: fadeout .3s ease-in forwards; 
+}
+.team-wrap.active .member-pic:nth-child(2){
+  animation: fadeout .3s ease-in forwards .1s; 
+}
+.team-wrap.active .member-pic:nth-child(3){
+  animation: fadeout .3s ease-in forwards .2s; 
+}
+.team-wrap.active .member-pic:nth-child(4){
+  animation: fadeout .3s ease-in forwards .3s; 
+}
+.team-wrap.active .member-pic:nth-child(5){
+  animation: fadeout .3s ease-in forwards .4s; 
+}
+.member-pic{
+  width:4rem;
+  height:4rem;
+  display:inline-block;
+  margin:auto 1rem;
+  border-radius:50rem;
+  overflow:hidden;
+  opacity:0;
+  transform:translateY(-200%);
+  transform-origin: 0 400px;
+}
+
+.member-pic img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+@keyframes fadeout{
+  from{
+    opacity:0;
+    transform:translateY(-200%);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@keyframes fadein{
+  from{
+    opacity:1;
+    transform:translateY(0);
+  }
+  to{
+    opacity:0;
+    transform:translateY(-200%);
+  }
+}

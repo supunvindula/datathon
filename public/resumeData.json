@@ -9,7 +9,7 @@
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://forms.google.com",
+    "project":"https://docs.google.com/forms/d/e/1FAIpQLSdHUOTDDyG9SN25M-xXAkq__HbTNyAr2IZPdmXjBWtK0HF-Zg/viewform?usp=sf_link",
     "address":{
       "street":"(Your Street)",
       "city":"(Your City)",
@@ -86,6 +86,26 @@
         "title":"Final competition",
         "years":"On 17th January at 6 pm",
         "description":"Online Viva Session"
+      }
+    ],
+    "prices":[
+      {
+        "headding":"ACES Datathon 2021",
+        "price":"25,000 LKR",
+        "lable":"WINNER",
+        "members":""
+      },
+      {
+        "headding":"ACES Datathon 2021",
+        "price":"15,000 LKR",
+        "lable":"2nd PLACE",
+        "members":""
+      },
+      {
+        "headding":"ACES Datathon 2021",
+        "price":"10,000 LKR",
+        "lable":"3rd PLACE",
+        "members":""
       }
     ],
     "skills":[

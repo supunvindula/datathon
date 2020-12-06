@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ParticlesBg from "particles-bg";
+import PriceCard from './PriceCard';
 
 class Resume extends Component {
 
@@ -31,19 +32,28 @@ class Resume extends Component {
       var skills = this.props.data.skills.map((skills) => {
         var className = 'bar-expand ' + skills.name.toLowerCase();
         return (
+          
           <li key={skills.name}>
             <span style={{ width: skills.level, backgroundColor: this.getRandomColor() }} className={className}></span><em>{skills.name}</em>
           </li>
         )
       })
+
+      var prices = this.props.data.prices.map((price) => {
+        return (
+          <PriceCard data={price} />
+        )
+      })
+
     }
 
     return (
-      <section id="resume">
+      <section id="prices">
 
 
+        {/* 
         <div className="row education" >
-          {/* <ParticlesBg type="circle" bg={true}/> */}
+          
           <div className="three columns header-col">
             <h1><span>Prizes</span></h1>
           </div>
@@ -56,7 +66,16 @@ class Resume extends Component {
             </div>
           </div>
         </div>
+        */}
 
+        <div className="row" >
+          <div className="three columns header-col">
+            <h1><span>Prizes</span></h1>
+          </div>
+        </div>
+        <div className="row work">
+          {prices}
+        </div>
 
         <div className="row work">
 
@@ -88,11 +107,11 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-          <p><span>&bull;</span> A team should include three members (or less) at most.</p>
-          <p><span>&bull;</span> The problems will be uploaded to the competition web site by the organizing committee and judging will be done by the judging panel.</p>
-          <p><span>&bull;</span> The general rule of the thumb is that the team that obtains the highest score in the overall 3 phases will win the competition.</p>
-          <p><span>&bull;</span> Every code submitted at the competition will be checked for plagiarism.</p>
-          <p><span>&bull;</span> The decision of the judges is final.</p>
+            <p><span>&bull;</span> A team should include three members (or less) at most.</p>
+            <p><span>&bull;</span> The problems will be uploaded to the competition web site by the organizing committee and judging will be done by the judging panel.</p>
+            <p><span>&bull;</span> The general rule of the thumb is that the team that obtains the highest score in the overall 3 phases will win the competition.</p>
+            <p><span>&bull;</span> Every code submitted at the competition will be checked for plagiarism.</p>
+            <p><span>&bull;</span> The decision of the judges is final.</p>
 
           </div>
         </div>

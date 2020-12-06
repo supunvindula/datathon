@@ -26,7 +26,7 @@ class Portfolio extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section id="sponsers">
 
         <div className="row">
 
