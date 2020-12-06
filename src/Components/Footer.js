@@ -19,8 +19,8 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2020 Tusker Solutions</li>
-              <li>Design by <a title="Styleshout" href="">TUSKERS</a></li>
+              <li>&copy; Copyright 2020 - Association of Computer Engineering Students 2020 - All rights reserved.</li>
+              <li>Design by <a title="Styleshout" href="">ACES</a></li>
            </ul>
 
         </div>

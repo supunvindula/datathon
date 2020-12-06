@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
+import AOS from 'aos';
 
 class PriceCard extends Component {
+    componentDidMount() {
+        // or simply just AOS.init();
+        AOS.init({
+          // initialise with other settings
+          duration : 2000
+        });
+      }
     render() {
 
         if (this.props.data) {
@@ -10,7 +18,7 @@ class PriceCard extends Component {
 
         }
         return (
-            <div className="four columns body-winner">
+            <div className="four columns body-winner" data-aos = "zoom-in">
                 <div class="winner-wrap">
                     <div class="border"></div>
                     <div class="medal-box"><i class="fas fa-medal"></i></div>

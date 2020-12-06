@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
-import ParticlesBg from "particles-bg";
 import PriceCard from './PriceCard';
+import AOS from 'aos';
 
 class Resume extends Component {
 
+  componentDidMount() {
+    // or simply just AOS.init();
+    AOS.init({
+      // initialise with other settings
+      duration : 2000
+    });
+  }
   getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
@@ -16,28 +23,19 @@ class Resume extends Component {
   render() {
 
     if (this.props.data) {
-      var skillmessage = this.props.data.skillmessage;
-      var education = this.props.data.education.map(function (education) {
-        return <div key={education.school}><h3>{education.school}</h3>
-          <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-          <p>{education.description}</p></div>
-      })
-      var schedule = this.props.data.work.map(function (work) {
-        return <div key={work.company}><h3>{work.company}</h3>
-          <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-          <p>{work.description}</p>
+      
+      var schedule = this.props.data.schedule.map(function (schedule) {
+        return <div class="timeline" data-aos="fade-in">
+          <div class="timeline-content" >
+            <div class="timeline-year">{schedule.phase}</div>
+            <h3 class="title">{ schedule.title }</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+            </p>
+          </div>
         </div>
       })
 
-      var skills = this.props.data.skills.map((skills) => {
-        var className = 'bar-expand ' + skills.name.toLowerCase();
-        return (
-          
-          <li key={skills.name}>
-            <span style={{ width: skills.level, backgroundColor: this.getRandomColor() }} className={className}></span><em>{skills.name}</em>
-          </li>
-        )
-      })
 
       var prices = this.props.data.prices.map((price) => {
         return (
@@ -50,24 +48,6 @@ class Resume extends Component {
     return (
       <section id="prices">
 
-
-        {/* 
-        <div className="row education" >
-          
-          <div className="three columns header-col">
-            <h1><span>Prizes</span></h1>
-          </div>
-
-          <div className="nine columns main-col">
-            <div className="row item">
-              <div className="twelve columns">
-                {education}
-              </div>
-            </div>
-          </div>
-        </div>
-        */}
-
         <div className="row" >
           <div className="three columns header-col">
             <h1><span>Prizes</span></h1>
@@ -77,14 +57,18 @@ class Resume extends Component {
           {prices}
         </div>
 
-        <div className="row work">
+        <div className="row">
 
           <div className="three columns header-col">
             <h1><span>SCHEDULE</span></h1>
+            <br></br>
           </div>
-
-          <div className="nine columns main-col">
-            {schedule}
+        </div>
+        <div className="row work">
+          <div className="columns main-col">
+            <div class="main-timeline">
+              {schedule}
+            </div>
           </div>
         </div>
 
