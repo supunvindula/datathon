@@ -384,6 +384,9 @@
     .slider{
       height: 160px;
     }
+    header {
+       min-height: 700px;
+    }
  }
 
 

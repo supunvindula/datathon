@@ -1188,7 +1188,7 @@ footer .social-links li:first-child { margin-left: 0; }
 .main-timeline .timeline-content:hover{ text-decoration: none; }
 .main-timeline .timeline-year{
    color: #edbe53;
-   font-size: 25px;
+   font-size: 23px;
    font-weight: 600;
    text-align: center;
    line-height: 57px;
@@ -1218,7 +1218,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .main-timeline .title{
    color: #e9ad20;
-   font-size: 25px;
+   font-size: 23px;
    font-weight: 600;
    text-transform: uppercase;
    margin: 0 0 3px;
@@ -1315,4 +1315,17 @@ footer .social-links li:first-child { margin-left: 0; }
    100% {
    transform: scale(1,1) translate(0px, 0px);
    }
+}
+
+.lion {
+   position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+}
+.upper-left-banner {
+   position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50%;
 }

@@ -1,4 +1,4 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
 import ParticlesBg from "particles-bg";
 import Countdown from './Countdown';
 import AOS from 'aos';
@@ -25,7 +25,7 @@ class Header extends Component {
 
       return (
          <div>
-            <ParticlesBg type="cobweb" color="#edbe53" bg={true} />
+         <ParticlesBg type="cobweb" color="#edbe53" bg={true} />
          <header id="home" style={{ "height": "847.8px" }}>
             {/* <ParticlesBg type="circle" bg={true} /> */}
             <nav id="nav-wrap">
@@ -42,7 +42,8 @@ class Header extends Component {
             </nav>
 
             <div className="row banner">
-
+               <img className="upper-left-banner" src="images/upper_left.png" alt="DATATHON 2020"/>
+               <img className="lion" src="images/lion.png" alt="DATATHON 2020"/>
                <div className="banner-text">
                   {/* <h1 className="responsive-headline">{name}</h1> */}
                   <img className="profile-pic" src={logo} alt="DATATHON 2020" data-aos="fade-in" />
