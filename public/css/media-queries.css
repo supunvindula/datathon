@@ -33,8 +33,9 @@
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
-      width: 80%;
+      /* font: 17px/1.9em 'librebaskerville-regular', serif;
+      width: 80%; */
+      font-size: 18px;
    }
    header .banner-text hr {
       width: 65%;
@@ -193,8 +194,9 @@
    }
    header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
-      font: 16px/1.9em 'librebaskerville-regular', serif;
-      width: 85%;
+      /* font: 16px/1.9em 'librebaskerville-regular', serif;
+      width: 85%; */
+      font-size: 14px;
    }
    header .banner-text hr {
       width: 80%;
@@ -355,8 +357,9 @@
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-      width: 90%;
+      /* font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      width: 90%; */
+      font-size: 14px;
    }
   
    /* header social links */

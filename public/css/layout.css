@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   min-height: 1050px;
+   min-height: 800px;
    width: 100%;
    height: auto;
    text-align: center;
@@ -46,7 +46,7 @@ header:before {
 }
 header .banner {
    display: inline-block;
-   vertical-align: middle;
+   /* vertical-align: middle; */
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;
@@ -61,10 +61,10 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   /* font: 18px/1.9em 'librebaskerville-regular', serif; */
    color: #ddd;
    margin: 0 auto;
-   width: 70%;
+   width: 100%;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -1385,14 +1385,14 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .main-timeline .timeline-content:hover{ text-decoration: none; }
 .main-timeline .timeline-year{
-   color: #00B260;
+   color: #edbe53;
    font-size: 25px;
    font-weight: 600;
    text-align: center;
    line-height: 57px;
    height: 60px;
    width: 120px;
-   border: 3px solid #00B260;
+   border: 3px solid #e9ad20;
    position: absolute;
    top: -17px;
    right: -60px;
@@ -1401,7 +1401,7 @@ footer .social-links li:first-child { margin-left: 0; }
 .main-timeline .timeline-year:before,
 .main-timeline .timeline-year:after{
    content: '';
-   background-color: #00B260;
+   background-color: #e9ad20;
    height: 3px;
    width: 50px;
    transform: translateY(-50%);
@@ -1415,7 +1415,7 @@ footer .social-links li:first-child { margin-left: 0; }
    border-radius: 50%;
 }
 .main-timeline .title{
-   color: #00B260;
+   color: #e9ad20;
    font-size: 25px;
    font-weight: 600;
    text-transform: uppercase;
@@ -1441,33 +1441,25 @@ footer .social-links li:first-child { margin-left: 0; }
    left: auto;
    right: -50px;
 }
-.main-timeline .timeline:nth-child(4n+2) .timeline-year{
-   color: #006EFF;
-   border-color: #006EFF;
+.main-timeline .timeline:nth-child(even) .timeline-year{
+   color: #ef4c23;
+   border-color: #f13a0d;
 }
-.main-timeline .timeline:nth-child(4n+2) .timeline-year:before,
-.main-timeline .timeline:nth-child(4n+2) .timeline-year:after{
-   background-color: #006EFF;
+.main-timeline .timeline:nth-child(even) .timeline-year:before,
+.main-timeline .timeline:nth-child(even) .timeline-year:after{
+   background-color: #f13a0d;
 }
-.main-timeline .timeline:nth-child(4n+2) .title{ color: #006EFF; }
-.main-timeline .timeline:nth-child(4n+3) .timeline-year{
-   color: #F4130D;
-   border-color: #F4130D;
-}
-.main-timeline .timeline:nth-child(4n+3) .timeline-year:before,
-.main-timeline .timeline:nth-child(4n+3) .timeline-year:after{
-   background-color: #F4130D;
-}
-.main-timeline .timeline:nth-child(4n+3) .title{ color: #F4130D; }
-.main-timeline .timeline:nth-child(4n+4) .timeline-year{
+.main-timeline .timeline:nth-child(even) .title{ color: #f13a0d; }
+
+.main-timeline .timeline:nth-child(odd) .timeline-year{
    color: #F86B13;
    border-color: #F86B13;
 }
-.main-timeline .timeline:nth-child(4n+4) .timeline-year:before,
-.main-timeline .timeline:nth-child(4n+4) .timeline-year:after{
+.main-timeline .timeline:nth-child(odd) .timeline-year:before,
+.main-timeline .timeline:nth-child(odd) .timeline-year:after{
    background-color: #F86B13;
 }
-.main-timeline .timeline:nth-child(4n+4) .title{ color: #F86B13; }
+.main-timeline .timeline:nth-child(odd) .title{ color: #F86B13; }
 @media screen and (max-width:767px) {
    .main-timeline .timeline,
    .main-timeline .timeline:nth-child(even){
@@ -1492,4 +1484,33 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 @media screen and (max-width:479px) {
    .main-timeline .title{ font-size: 22px; }
+}
+
+.bounce {
+  animation: bounce 5s infinite;
+}
+
+@keyframes bounce {
+   0% {
+   transform: scale(1,1) translate(0px, 0px);
+   }
+
+   20%{
+   transform: scale(1,0.8) translate(0px, 10px); 
+   }
+
+   60%{
+   transform: scale(1,1.1) translate(0px, -25px); 
+   }
+
+   70% {
+   transform: scale(1,1) translate(0px, 0px);
+   }
+   80% {
+   transform: scale(1,1) translate(0px, 0px);
+   }
+
+   100% {
+   transform: scale(1,1) translate(0px, 0px);
+   }
 }

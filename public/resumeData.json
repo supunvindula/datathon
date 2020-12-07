@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"DECATHON",
-    "description":"ACES Datathon, Organized by ACES, the Department of Computer Engineering, University of Peradeniya.It is a weekend long Data Hackathon bringing together Data Enthusiastics to create Data driven solutions.The competition will be held from 16th Jan 2021 to 17th January 2021.",
+    "organizedBy":"The Department of Computer Engineering, University of Peradeniya.",
     "image":"profilepic.jpg",
     "logo":"datathon_final_logo.png",
-    "bio":"ACES Datathon, Organized by ACES, the Department of Computer Engineering, University of Peradeniya.It is a weekend long Data Hackathon bringing together Data Enthusiastics to create Data driven solutions.The competition will be held from 16th Jan 2021 to 17th January 2021.",
+    "bio":"A weekend long Data Hackathon For Data Enthusiastics.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
