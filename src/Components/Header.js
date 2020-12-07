@@ -24,10 +24,10 @@ class Header extends Component {
       }
 
       return (
+         <div>
+            <ParticlesBg type="cobweb" color="#edbe53" bg={true} />
          <header id="home" style={{ "height": "847.8px" }}>
-            {/* <ParticlesBg color="#034460" type="circle" bg={true} /> */}
-            {/* <ParticlesBg color="#EE7E4E" type="circle" bg={true} /> */}
-            <ParticlesBg type="circle" bg={true} />
+            {/* <ParticlesBg type="circle" bg={true} /> */}
             <nav id="nav-wrap">
                <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
@@ -65,7 +65,9 @@ class Header extends Component {
                <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
             </p>
             {/* <h1 className="responsive-headline" style={{ "margin": "auto", "width": "60%", "text-align": "center", "color": "white" }}>MORE</h1> */}
+            
          </header>
+         </div>
       );
    }
 }

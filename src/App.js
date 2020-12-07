@@ -5,9 +5,13 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
-import Resume from './Components/Resume';
 import Contact from './Components/Contact';
-import Portfolio from './Components/Portfolio';
+// import Portfolio from './Components/Portfolio';
+import Prices from './Components/Prices';
+import Schedule from './Components/Schedule';
+import Challenge from './Components/Challenge';
+import Rules from './Components/Rules';
+import Sponsers from './Components/Sponsers';
 
 class App extends Component {
 
@@ -47,8 +51,13 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>        
         <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Prices data={this.state.resumeData.resume}/>
+        <Schedule  data={this.state.resumeData.resume} />
+        <Challenge data={this.state.resumeData.resume} />
+        <Rules data={this.state.resumeData.resume} />
+        {/* <Resume data={this.state.resumeData.resume}/> */}
+        <Sponsers data={this.state.resumeData.portfolio}/>
+        {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
       </div>

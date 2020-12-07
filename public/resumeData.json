@@ -73,39 +73,33 @@
         "phase":"PHASE I",
         "title":"12hrs competition",
         "date":"On 16th January",
-        "description":"From 10am-10pm"
+        "description":"From 10am-10pm",
+        "animation" : "fade-right"
       },
       {
         "phase":"PHASE II",
         "title":"Second challenge",
         "date":"Before 6 am 17th January",
-        "description":"Report Submission"
+        "description":"Report Submission",
+        "animation" : "fade-left"
       },
       {
         "phase":"PHASE III",
         "title":"Final competition",
         "date":"On 17th January at 6 pm",
-        "description":"Online Viva Session"
+        "description":"Online Viva Session",
+        "animation" : "fade-right"
       }
     ],
     "prices":[
       {
-        "headding":"ACES Datathon 2021",
-        "price":"25,000 LKR",
-        "lable":"WINNER",
-        "members":""
+        "img":"images/first.png"
       },
       {
-        "headding":"ACES Datathon 2021",
-        "price":"15,000 LKR",
-        "lable":"2nd PLACE",
-        "members":""
+        "img":"images/second.png"
       },
       {
-        "headding":"ACES Datathon 2021",
-        "price":"10,000 LKR",
-        "lable":"3rd PLACE",
-        "members":""
+        "img":"images/third.png"
       }
     ],
     "skills":[
