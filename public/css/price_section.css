@@ -1,0 +1,65 @@
+/* ------------------------------------------------------------------ */
+/* prices Section
+/* ------------------------------------------------------------------ */
+#prices {
+    background: #fff;
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+    overflow: hidden;
+ }
+ 
+ #prices a, #prices a:visited  { color: #0762f9; }
+ #prices a:hover, #prices a:focus { color: #313131; }
+ 
+ #prices h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ #prices h1 span {
+    border-bottom: 3px solid #0762f9;
+    padding-bottom: 6px;
+ }
+ #prices h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+ }
+ 
+ #prices .header-col { padding-top: 9px; }
+ #prices .main-col { padding-right: 10%; }
+
+ #prices .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+ }
+ #prices .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+ }
+ #prices .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+ }
+ 
+.priceImage {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .priceImage:hover {
+    animation: enlarge 2s forwards;
+   
+ }
+
+ 
+ @keyframes enlarge {
+    0% {
+    transform: scale(1);
+    }
+ 
+    100% {
+    transform: scale(1.3);
+    }
+ }
