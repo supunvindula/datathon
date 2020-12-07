@@ -54,7 +54,7 @@ class Header extends Component {
                   <ul className="social" data-aos="fade-left">
                      <Countdown date={`${year}-12-24T00:00:00`} />
                   </ul>
-                  <ul className="social bounce" data-aos="fade-right">
+                  <ul className="social bounce" >
                      <a href={project} target="_blank" className="button btn project-btn"><i className="fa fa-book"></i>Register Now!</a>
                      {/* <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a> */}
                   </ul>

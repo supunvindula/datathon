@@ -105,6 +105,7 @@ header .scrolldown a {
    line-height: 42px;
    color: #fff;
    border-radius: 100%;
+   z-index: 3;
 
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
@@ -1322,9 +1323,10 @@ footer .social-links li:first-child { margin-left: 0; }
   bottom: 0px;
   right: 0px;
   width: 100%;
+  z-index: 2;
 }
 .upper-left-banner {
-   position: absolute;
+  position: absolute;
   top: 0px;
   left: 0px;
   width: 50%;

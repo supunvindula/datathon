@@ -4,10 +4,10 @@
 #challenge {
     background: #fff;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     overflow: hidden;
  }
- 
+
  #challenge a, #challenge a:visited  { color: #0762f9; }
  #challenge a:hover, #challenge a:focus { color: #313131; }
  

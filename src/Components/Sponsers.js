@@ -43,7 +43,7 @@ class Sponsers extends Component {
                         <br></br>
                     </div>
                 </div>
-                <div className="twelve columns collapsed">
+                <div className="ten columns collapsed">
                     <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf" >
                         {projects}
                     </div>

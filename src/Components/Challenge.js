@@ -23,14 +23,15 @@ class Challenge extends Component {
 
     return (
       <section id="challenge">
-        <div className="row work">
+        <div className="row">
 
           <div className="three columns header-col">
-            <h1 data-aos = "fade-right"><span>The Challenge</span></h1>
+            <h1 data-aos = "fade-right"><span>Challenge</span></h1>
           </div>
 
           <div className="nine columns main-col">
             <p>Still not confirmed.</p>
+          <hr />
           </div>
         </div>
 
