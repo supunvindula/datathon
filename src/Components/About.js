@@ -25,7 +25,7 @@ class About extends Component {
                   <h2 className="about_title" data-aos="fade-up">Note about Registration:</h2>
                   <p data-aos="fade-up">Hurry up! Brace yourselves and gather your best teammates to secure your posts.</p>
                   <p data-aos="fade-up">Accepting Registrations Now !</p>
-                  <h2 className="about_title" data-aos="fade-up">Data Enthusiastics</h2>
+                  <h2 className="about_title" data-aos="fade-up">Data Enthusiasts</h2>
                   <p data-aos="fade-up">We have already sent the registration forms to the respective Departments. Please contact your Head of the Department and send us your  registration form through them.</p>
 
                </div>
